@@ -127,3 +127,7 @@ $wgDefaultSkin = "vector";
 # Add more configuration options below.
 
 wfLoadSkin( 'Vector' );
+
+$wgShowExceptionDetails = true;
+$wgShowDBErrorBacktrace = true;
+$wgShowSQLErrors = true;
