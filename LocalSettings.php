@@ -126,5 +126,5 @@ $wgDefaultSkin = "vector";
 # End of automatically generated settings.
 # Add more configuration options below.
 
-
-# wfLoadSkin( 'Vector' );
+require_once("skins/vector/Vector.php");
+wfLoadSkin( 'Vector' );
