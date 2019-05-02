@@ -127,4 +127,4 @@ $wgDefaultSkin = "vector";
 # Add more configuration options below.
 
 
-wfLoadSkin( 'Vector' );
+# wfLoadSkin( 'Vector' );
