@@ -103,7 +103,7 @@ $wgAuthenticationTokenVersion = "1";
 
 # Site upgrade key. Must be set to a string (default provided) to turn on the
 # web installer while LocalSettings.php is in place
-$wgUpgradeKey = getenv("UPGRADE_KEY")
+$wgUpgradeKey = getenv("UPGRADE_KEY");
 
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
