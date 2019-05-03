@@ -135,4 +135,6 @@ $wgShowExceptionDetails = true;
 $wgShowDBErrorBacktrace = true;
 $wgShowSQLErrors = true;
 
-wfLoadSkin( 'Vector' );
+wfLoadSkin('Vector');
+
+?>
