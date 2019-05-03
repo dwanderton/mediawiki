@@ -56,7 +56,7 @@
 		"wikimedia/wrappedstring": "3.0.1",
 		"wikimedia/xmp-reader": "0.6.2",
 		"zordius/lightncandy": "0.23",
-		"mediawiki/chameleon-skin": "~2.0"
+		"mediawiki/vector-skin": "dev-wmf/1.34.0-wmf.1"
 	},
 	"require-dev": {
 		"cache/integration-tests": "0.16.0",

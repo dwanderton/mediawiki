@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c55354747e8b2ffd9191343c8e89ed39",
+    "content-hash": "d0f4331a915425e5c887486003badc87",
     "packages": [
         {
             "name": "composer/installers",
@@ -469,11 +469,11 @@
         },
         {
             "name": "mediawiki/vector-skin",
-            "version": "1.32.0",
+            "version": "dev-wmf/1.34.0-wmf.1",
             "source": {
                 "type": "git",
                 "url": "https://phabricator.wikimedia.org/diffusion/SVEC/vector.git",
-                "reference": "d3ed21abc9ccf1bf3d2c194bbab7f7c0260f7bd6"
+                "reference": "22a83806097bbe3a4fbcd89f9e7f67495331c32b"
             },
             "require": {
                 "composer/installers": ">1.0.12",
@@ -482,8 +482,8 @@
             "require-dev": {
                 "jakub-onderka/php-console-highlighter": "0.3.2",
                 "jakub-onderka/php-parallel-lint": "1.0.0",
-                "mediawiki/mediawiki-codesniffer": "22.0.0",
-                "mediawiki/mediawiki-phan-config": "0.3.0",
+                "mediawiki/mediawiki-codesniffer": "24.0.0",
+                "mediawiki/mediawiki-phan-config": "0.5.0",
                 "mediawiki/minus-x": "0.3.1"
             },
             "type": "mediawiki-skin",
@@ -513,7 +513,7 @@
                 "skin",
                 "wiki"
             ],
-            "time": "2018-10-14T20:07:01+00:00"
+            "time": "2019-04-14T20:03:37+00:00"
         },
         {
             "name": "oojs/oojs-ui",
@@ -5129,7 +5129,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "mediawiki/vector-skin": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

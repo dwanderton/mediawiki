@@ -125,13 +125,14 @@ $wgGroupPermissions['*']['edit'] = false;
 
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, ie 'vector', 'monobook':
-$wgDefaultSkin = "vectorblue";
+$wgDefaultSkin = "vector;
 
 # End of automatically generated settings.
 # Add more configuration options below.
 
-require_once( "$IP/skins/vectorblue/vectorblue.php" );
 
 $wgShowExceptionDetails = true;
 $wgShowDBErrorBacktrace = true;
 $wgShowSQLErrors = true;
+
+wfLoadSkin( 'Vector' );
