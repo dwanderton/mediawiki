@@ -130,7 +130,7 @@ $wgDefaultSkin = "vectorblue";
 # End of automatically generated settings.
 # Add more configuration options below.
 
-require_once( "$IP/skins/vectorblue/vectorblue.php" )
+require_once( "$IP/skins/vectorblue/vectorblue.php" );
 
 $wgShowExceptionDetails = true;
 $wgShowDBErrorBacktrace = true;
